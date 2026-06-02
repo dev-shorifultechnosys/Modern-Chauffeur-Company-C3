@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get a Chauffeur Quote | Aurum Chauffeur</title>
+  <meta name="description" content="Request a chauffeur quote with pickup, drop-off, journey date, time, passengers, vehicle preference and special requirements.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700;800&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="quote-page">
+<a href="#main" class="skip-link">Skip to content</a>
+<header class="site-header">
+  <div class="container nav-shell">
+    <a class="logo" href="index.html" aria-label="Aurum Chauffeur home">
+      <span class="logo-mark">A</span>
+      <span class="logo-copy"><strong>Aurum Chauffeur</strong><span>Executive Private Travel</span></span>
+    </a>
+    <nav class="nav-menu" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="fleet.html">Fleet</a>
+      <a href="quote.html">Get a Quote</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="header-phone" href="tel:+440000000000">+44 0000 000000</a>
+      <a class="btn btn-primary" href="quote.html">Request Quote</a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero" data-hero-slides='["assets/images/middle-aged-woman-arriving-at-hotel-with-luggage-a-2026-03-26-23-23-51-utc.jpg","assets/images/mature-business-woman-in-coat-near-her-jet-in-airp-2026-01-05-06-05-33-utc.jpg","assets/images/man-in-suit-exiting-car-as-assistant-opens-door-2026-03-20-00-34-07-utc.JPG"]'>
+  <div class="container"><span class="eyebrow reveal">Get a Quote</span><h1 class="reveal">Request a chauffeur quote with <span class="hero-gold">all journey details</span> in one step.</h1><p class="lead reveal reveal-delay-1">Share your journey details and our team will prepare a tailored chauffeur quote.</p></div>
+</section>
+<section class="section cream">
+  <div class="container form-layout">
+    <aside class="form-intro reveal"><span class="eyebrow">Fast Enquiry</span><h2>Tell us where, when, and how you want to travel.</h2><p>The form creates an email-ready request with pickup, drop-off, date, time, passengers, service type, vehicle preference, and special requirements.</p><div class="form-points"><span>Airport and hotel pickup</span><span>Corporate schedules</span><span>Private hire</span><span>Wedding and event travel</span></div></aside>
+    <form class="form-shell reveal reveal-delay-1" data-contact-form="Chauffeur Quote Request" data-email="bookings@yourcompany.com">
+      <div class="form-grid">
+        <div class="field"><label for="full-name">Full Name</label><input id="full-name" name="full_name" type="text" placeholder="Your name" required></div>
+        <div class="field"><label for="phone">Phone Number</label><input id="phone" name="phone" type="tel" placeholder="+44..." required></div>
+        <div class="field"><label for="email">Email Address</label><input id="email" name="email" type="email" placeholder="you@example.com" required></div>
+        <div class="field"><label for="service-type">Service Type</label><select id="service-type" name="service_type" required><option value="">Select service</option><option>Airport Transfer</option><option>Corporate Chauffeur</option><option>Private Hire</option><option>Wedding Chauffeur</option><option>VIP & Discreet Travel</option><option>Hourly Chauffeur</option><option>Hotel & Event Transfers</option><option>Family & Group Transfers</option></select></div>
+        <div class="field"><label for="pickup">Pickup Location</label><input id="pickup" name="pickup_location" type="text" placeholder="Pickup address" required></div>
+        <div class="field"><label for="dropoff">Drop-off Location</label><input id="dropoff" name="dropoff_location" type="text" placeholder="Destination" required></div>
+        <div class="field"><label for="date">Journey Date</label><input id="date" name="journey_date" type="date" required></div>
+        <div class="field"><label for="time">Pickup Time</label><input id="time" name="pickup_time" type="time" required></div>
+        <div class="field"><label for="passengers">Passengers</label><input id="passengers" name="passengers" type="number" min="1" placeholder="2"></div>
+        <div class="field"><label for="vehicle">Preferred Vehicle</label><select id="vehicle" name="preferred_vehicle"><option value="">No preference</option><option>Executive Sedan</option><option>Luxury SUV</option><option>Premium Van</option></select></div>
+        <div class="field full"><label for="message">Special Requirements</label><textarea id="message" name="special_requirements" placeholder="Flight number, luggage, child seat, multiple stops, waiting time..."></textarea></div>
+      </div>
+      <button class="btn btn-primary" type="submit" style="margin-top:24px">Send Quote Request</button>
+      <div class="alert"></div>
+      <div class="privacy-note">Your details are used only to prepare and respond to your chauffeur quote request.</div>
+      <p class="form-note">Your quote request includes the route, time, passenger count, vehicle preference, and special notes for faster review.</p>
+    </form>
+  </div>
+</section>
+
+<section class="section-tight cream-alt quote-trust-section">
+  <div class="container quote-trust-card reveal">
+    <div>
+      <span class="eyebrow">Booking Confidence</span>
+      <h2>Clear details help the journey feel premium before the vehicle arrives.</h2>
+    </div>
+    <div class="quote-trust-note">
+      <span class="testimonial-label">Client experience standard</span>
+      <p>Fast quote review, accurate route notes, vehicle matching, and private communication help every enquiry move from form submission to confirmed chauffeur journey with less back-and-forth.</p>
+    </div>
+  </div>
+</section>
+<section class="section-tight cream-alt">
+  <div class="container grid grid-3"><div class="card reveal" style="padding:34px"><strong style="font-size:42px;color:var(--gold-dark)">01</strong><h3>Submit details</h3><p class="text-muted">Send route, schedule, passengers, luggage, and service type.</p></div><div class="card reveal reveal-delay-1" style="padding:34px"><strong style="font-size:42px;color:var(--gold-dark)">02</strong><h3>Quote review</h3><p class="text-muted">The company checks vehicle fit, route, timing, and availability.</p></div><div class="card reveal reveal-delay-2" style="padding:34px"><strong style="font-size:42px;color:var(--gold-dark)">03</strong><h3>Confirm journey</h3><p class="text-muted">Once confirmed, the chauffeur and vehicle are assigned.</p></div></div>
+</section>
+<section class="section cream quote-faq faq-premium">
+  <div class="container split split-40 faq-head">
+    <span class="eyebrow reveal">Quote FAQs</span>
+    <div class="copy-stack reveal reveal-delay-1">
+      <h2>Quick answers before you send the quote request.</h2>
+      <p class="lead">This short FAQ helps clients submit a complete enquiry, reduce back-and-forth, and get a more accurate chauffeur quote.</p>
+    </div>
+  </div>
+  <div class="container faq-layout compact-faq" style="margin-top:34px">
+    <aside class="faq-note reveal">
+      <span class="mini-label">Quote confidence</span>
+      <h3>Better details create a smoother booking.</h3>
+      <p>Include the route, timing, passenger count, luggage, preferred vehicle, and any special notes so the team can review the journey properly.</p>
+    </aside>
+    <div class="accordion">
+      <div class="accordion-item reveal is-open"><button class="accordion-trigger" aria-expanded="true">What details should I include in my quote request?</button><div class="accordion-panel" style="max-height:140px"><p>Include pickup and drop-off locations, date, time, passenger count, luggage, service type, preferred vehicle, and any special notes such as flight number or multiple stops.</p></div></div>
+      <div class="accordion-item reveal"><button class="accordion-trigger" aria-expanded="false">Can I request a specific vehicle type?</button><div class="accordion-panel"><p>Yes. You can choose executive sedan, luxury SUV, or premium van. The team can also suggest the best fit based on luggage, passenger count, and trip purpose.</p></div></div>
+      <div class="accordion-item reveal"><button class="accordion-trigger" aria-expanded="false">Is the booking confirmed after sending the form?</button><div class="accordion-panel"><p>No. The form sends your journey details for review. The booking is confirmed after availability, vehicle type, route, and timing are agreed by the team.</p></div></div>
+      <div class="accordion-item reveal"><button class="accordion-trigger" aria-expanded="false">Can I add waiting time or multiple stops?</button><div class="accordion-panel"><p>Yes. Add waiting time, multiple stops, extra passengers, child seats, or luggage notes in the special requirements field so the quote can be reviewed accurately.</p></div></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="logo footer-logo" href="index.html" aria-label="Aurum Chauffeur home">
+          <span class="logo-mark">A</span>
+          <span class="logo-copy"><strong>Aurum Chauffeur</strong><span>Executive Private Travel</span></span>
+        </a>
+        <p class="footer-text">Premium chauffeur service for airport transfers, corporate journeys, weddings, private hire, and high-value travel requests.</p>
+        <div class="socials"><a href="#" aria-label="Facebook">Fb</a><a href="#" aria-label="Instagram">Ig</a><a href="#" aria-label="LinkedIn">In</a></div>
+      </div>
+      <div>
+        <div class="footer-title">Pages</div>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="fleet.html">Fleet</a>
+          <a href="quote.html">Get a Quote</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-title">Services</div>
+        <div class="footer-links">
+          <span>Airport Transfers</span>
+          <span>Corporate Travel</span>
+          <span>Wedding Chauffeur</span>
+          <span>Private Hire</span>
+          <span>Hourly Hire</span>
+          <span>Hotel & Event Transfers</span>
+        </div>
+      </div>
+      <div>
+        <div class="footer-title">Contact</div>
+        <div class="footer-links">
+          <a href="tel:+440000000000">+44 0000 000000</a>
+          <a href="mailto:bookings@yourcompany.com">bookings@yourcompany.com</a>
+          <span>Serving your city, airports, hotels, event venues, and corporate travel routes.</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> Aurum Chauffeur. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
